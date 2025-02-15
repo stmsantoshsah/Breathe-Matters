@@ -17,6 +17,7 @@ import ForYou from '../components/sections/ForYou.tsx'
 import TakeControl from '../components/sections/TakeControl.tsx'
 
 function SalePage() {
+    
     return (
         <Layout>
             <HeroSection title="Transform Your Life with the Revolutionary CapnoTrainer® GO" subtitle="Breathe Smarter, Live Better" description="Breathing is more than just an unconscious action—it’s a foundation of health, performance, and emotional well-being. But what if your breathing habits are silently holding you back? Enter the CapnoTrainer® GO, the groundbreaking tool that merges science, psychology, and technology to revolutionize your breathing habits and transform your life." imageSrc={HeroImage} />

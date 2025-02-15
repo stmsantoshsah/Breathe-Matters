@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  padding-inline: 20px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0;
+  font-family: var(--font-spectral);
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--font-nunito);
+}
+
+.hero_section {
+  min-height: 640px;
+  background: linear-gradient(180deg, #6BB5B5 0%, #008080 136.34%);
+  z-index: 1;
+}
+
+.hero_section::after {
+  background: linear-gradient(180deg, #008080 0%, #001A1A 143.38%);
+  position: absolute;
+  height: 150px;
+  content: '';
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.work_section{
+  background: url("../src/assets/workbg.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+}
+.capnotrainer_section {
+  background: url("/src/assets/Capno.png")no-repeat;
+  background-size: contain;
+  width: 100%;
+  min-height: 327px;
+  background-position: 56% 50%;
+}
+.for_cards .for_card {
+    max-width: calc(33.33% - 16px);
+    width: 100%;
+}
+.for_cards .for_card:nth-child(4),.for_cards .for_card:nth-child(5) {
+    max-width: calc(50% - 12px);
+}

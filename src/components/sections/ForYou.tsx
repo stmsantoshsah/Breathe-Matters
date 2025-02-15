@@ -1,8 +1,8 @@
 import React from 'react'
-import Image1 from "../../assets/eliminate.png"
-import Image2 from "../../assets/enhance.png"
-import Image3 from "../../assets/achieve.png"
-import Image4 from "../../assets/Improve.png"
+import Image1 from "../../../public/assets/eliminate.png"
+import Image2 from "../../../public/assets/enhance.png"
+import Image3 from "../../../public/assets/achieve.png"
+import Image4 from "../../../public/assets/Improve.png"
 const forYouData = [
     {
         image: Image1,

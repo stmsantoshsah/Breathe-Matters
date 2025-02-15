@@ -1,5 +1,5 @@
 import React from 'react'
-import ControlBg from '../../assets/take.png'
+import ControlBg from '../../../public/assets/take.png'
 const TakeControl = () => {
     return (
         <section className='w-full h-[530px] lg:!mt-[160px] md:!mt-[100px] !mt-[50px]' style={{ backgroundImage: `url(${ControlBg})`,backgroundPosition:"center",backgroundRepeat:"no-repeat",backgroundSize:"cover" }}>

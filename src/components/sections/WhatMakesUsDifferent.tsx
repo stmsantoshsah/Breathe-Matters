@@ -1,5 +1,5 @@
 import React from "react";
-import CapnoGym from "../../assets/capnogym.png"
+import CapnoGym from "../../../public/assets/capnogym.png"
 const WhatMakesUsDifferent: React.FC = () => {
   return (
     <section className="py-16 bg-white lg:!mt-[160px] md:!mt-[100px] !mt-[50px]">

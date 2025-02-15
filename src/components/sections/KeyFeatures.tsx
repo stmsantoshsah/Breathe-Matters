@@ -1,8 +1,8 @@
 import React from "react";
-import Portable from "../../assets/Portable.svg";
-import BreathStrategies from "../../assets/breath.svg";
-import Breathwave from "../../assets/Breathwave.svg";
-import Monitoring from "../../assets/monitoring.svg";
+import Portable from "../../../public/assets/Portable.svg";
+import BreathStrategies from "../../../public/assets/breath.svg";
+import Breathwave from "../../../public/assets/Breathwave.svg";
+import Monitoring from "../../../public/assets/monitoring.svg";
 const features = [
   {
     id: 1,

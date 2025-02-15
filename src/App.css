@@ -41,13 +41,13 @@ body {
 }
 
 .work_section {
-  background: url("../src/assets/workbg.png") no-repeat center center;
+  background: url("../public/assets/workbg.png") no-repeat center center;
   background-size: cover;
   width: 100%;
 }
 
 .capnotrainer_section {
-  background: url("/src/assets/Capno.png")no-repeat;
+  background: url("/public/assets/Capno.png")no-repeat;
   background-size: contain;
   width: 100%;
   min-height: 327px;
@@ -77,7 +77,7 @@ body {
 
 .btn-box::before {
   content: '';
-  background: url("../src/assets/arroe.svg") no-repeat center center;
+  background: url("../public/assets/arroe.svg") no-repeat center center;
   background-size: contain;
   position: absolute;
   left: -10px;
@@ -90,7 +90,7 @@ body {
 .btn-box::after {
   content: '';
   position: absolute;
-  background: url("../src/assets/lining.svg") no-repeat center center;
+  background: url("../public/assets/lining.svg") no-repeat center center;
   right: 35px;
   top: -30px;
   left: auto;
@@ -100,7 +100,7 @@ body {
 }
 
 .newsletter_content::before {
-  background: url("../src/assets/conebox.svg") no-repeat center center;
+  background: url("../public/assets/conebox.svg") no-repeat center center;
   background-size: contain;
   position: absolute;
   right: 0;
@@ -112,7 +112,7 @@ body {
 }
 
 .newsletter_content::after {
-  background: url("../src/assets/ctwobox.svg") no-repeat center center;
+  background: url("../public/assets/ctwobox.svg") no-repeat center center;
   background-size: contain;
   position: absolute;
   left: 0;

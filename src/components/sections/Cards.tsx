@@ -23,13 +23,13 @@ const cardData = [
 ]
 const Cards = () => {
     return (
-        <div className='card_wrapper flex gap-[50px] '>
+        <div className='card_wrapper flex gap-[50px] md:flex-nowrap flex-wrap '>
             {cardData.map((item, i) => (
-                <div className='max-w-[33.33%] w-full h-full bg-[#E6F2F2]' key={i} style={{ boxShadow: "0px 2px 3px 0px #0000001A" }} >
+                <div className='md:max-w-[33.33%] sm:md:max-w-[50%] md:max-w-[100%] w-full h-full bg-[#E6F2F2]' key={i} style={{ boxShadow: "0px 2px 3px 0px #0000001A" }} >
                     <div className='h-[220px]'>
                         <img src={item.image} alt="card image" className='w-auto' />
                     </div>
-                    <div className='!p-[20px] !mt-[-20px] bg-[#E6F2F2] rounded-[8px] relative' style={{ boxShadow: "0px 2px 3px 0px #0000001A" }}>
+                    <div className='!p-[20px] md:!mt-[-20px] bg-[#E6F2F2] rounded-[8px] relative' style={{ boxShadow: "0px 2px 3px 0px #0000001A" }}>
                         <h3 className='font-nunita text-primary text-[20px] font-[700] '>{item.title}</h3>
                         <p>{item.description}</p>
                     </div>

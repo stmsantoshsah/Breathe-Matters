@@ -27,12 +27,12 @@ const forYouData = [
 ]
 const ForYou = () => {
     return (
-        <section className='for_you_section !mt-[180px]'>
+        <section className='for_you_section lg:!mt-[180px] md:!mt-[100px] !mt-[50px]'>
             <div className="container">
                 <h2 className='text-center font-bold !mb-5'>What Can the CapnoTrainer®GO Do for You?</h2>
                 <div className='flex gap-[30px] flex-wrap'>
                     {forYouData.map((item) => (
-                        <div className='max-w-[calc(25%-23px)] w-full bg-primary rounded-b-[8px] rounded-t-[10px] '>
+                        <div className='lg:max-w-[calc(25%-23px)] md:max-w-[calc(50%-15px)] w-full bg-primary rounded-b-[8px] rounded-t-[10px] '>
                             <div><img src={item.image} alt="Card Image" className='w-full rounded-[10px] h-[250px]' /></div>
                             <div className='bg-primary rounded-[8px] text-white !p-5 !mt-[-20px] relative'>
                                 <h3>{item.title}</h3>

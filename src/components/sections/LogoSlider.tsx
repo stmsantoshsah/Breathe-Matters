@@ -39,7 +39,7 @@ const LogoSlider: React.FC = () => {
       <div className="container mx-auto">
         <Slider {...settings}>
           {sliderImages.map((image, i) => (
-            <div key={i} className="flex justify-center">
+            <div key={i} className="!flex justify-center">
               <img src={image} alt={`Logo ${i + 1}`} className="w-auto " />
             </div>
           ))}

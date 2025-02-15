@@ -24,12 +24,12 @@ const CapnoTrainer: React.FC = () => {
     return (
         <section className='capnotrainer_section'>
             <div className="container">
-                <div className='flex justify-between'>
-                    <div className='max-w-[50%]'>
-                        <h2 className='text-primary font-bold !font-[50px]'>{CapnoTrainerData.title}</h2>
+                <div className='flex justify-between md:flex-nowrap flex-wrap'>
+                    <div className='md:max-w-[50%]'>
+                        <h2 className='text-primary font-bold sm:!font-[50px] md:!font-[40px] !font-[30px]'>{CapnoTrainerData.title}</h2>
                         <p className=''>{CapnoTrainerData.description}</p>
                     </div>
-                    <div>
+                    <div className='md:!mt-0 !mt-6' >
                         {CapnoTrainerData.points.map((item, i) => (
                             <div key={i} className='bg-[#E6F2F2] rounded-[8px] !p-[10px] !mb-[22px] w-auto flex gap-2'>
                                 <img src={item.icons} alt="" />

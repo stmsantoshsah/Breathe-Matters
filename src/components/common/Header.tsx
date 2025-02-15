@@ -8,7 +8,7 @@ function Header() {
       <div className="container">
         <nav className='flex justify-between items-center py-[14px]'>
           <Link to="/"><img src={Logo} alt="Logo" /></Link>
-          <button className='bg-primary text-white min-w-[121px] h-[43px] rouned-[8px] text-[16px]'>Book Now</button>
+          <button className='bg-primary text-white min-w-[121px] h-[43px] rounded-[8px] text-[16px]'>Book Now</button>
         </nav>
       </div>
     </header>

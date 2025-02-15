@@ -7,39 +7,39 @@ import Image5 from "../../assets/educators.png";
 const cardsData = [
   {
     id: 1,
-    title: "Enhanced Focus",
-    description: "Improve concentration with mindful breathing.",
+    title: "Wellness Enthusiasts",
+    description: "Achieve better sleep, reduce anxiety, and enhance overall vitality.",
     image: Image1,
   },
   {
     id: 2,
-    title: "Better Sleep",
-    description: "Achieve deeper, more restful sleep patterns.",
+    title: "Health Practitioners",
+    description: "Provide clients with revolutionary breathing behavior analysis for lasting results.",
     image: Image2,
   },
   {
     id: 3,
-    title: "Stress Relief",
-    description: "Reduce anxiety and stress levels naturally.",
+    title: "Athletes & Performers",
+    description: "Boost endurance, focus, and physical resilience.",
     image: Image3,
   },
   {
     id: 4,
-    title: "Physical Performance",
-    description: "Optimize breathing for endurance and strength.",
+    title: "Healthcare Professionals",
+    description: "Enhance patient care with cutting-edge breathing assessment tools.",
     image: Image4,
   },
   {
     id: 5,
-    title: "Boost Immunity",
-    description: "Support overall health through proper respiration.",
+    title: "Educators & Trainers",
+    description: "Incorporate evidence-based breathing techniques into your teaching or coaching.",
     image: Image5,
   },
 ];
 
 const BenefitsSection: React.FC = () => {
   return (
-    <section className="!mt-[160px]">
+    <section className="lg:!mt-[160px] md:!mt-[100px] !mt-[50px]">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-gray-800 text-center !mb-10">
           Who Is the CapnoTrainer® GO For?
@@ -52,9 +52,9 @@ const BenefitsSection: React.FC = () => {
             >
               <img src={card.image} alt="card image" className="rounded-[10px] w-full cover" />
               {/* Badge */}
-              <div className="absolute bottom-4 left-4 bg-primary text-white !px-4 !py-2 rounded-[8px] shadow-md">
-                <h4 className="text-sm font-semibold">{card.title}</h4>
-                <p className="text-xs">{card.description}</p>
+              <div className="w-full max-w-[calc(100%-40px)] absolute bottom-4 left-1/2 right-4 -translate-x-1/2 bg-[#008080A6] text-white !p-5 rounded-[8px] shadow-md">
+                <h4 className="text-[20px] font-semibold">{card.title}</h4>
+                <p className="text-[16px]">{card.description}</p>
               </div>
             </div>
           ))}

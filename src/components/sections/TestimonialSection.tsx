@@ -60,25 +60,25 @@ const TestimonialSection: React.FC = () => {
   };
 
   return (
-    <section className="bg-[#E6F2F2] !mt-[180px] !pt-8 !pb-12">
+    <section className="bg-[#E6F2F2] lg:!mt-[180px] md:!mt-[100px] !mt-[50px] !pt-8 !pb-8 testimonial_section relative z-10">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-10">
+        <h2 className="text-3xl font-bold text-gray-800 sm:!mb-6 !mb-4">
           Real Success Stories
         </h2>
-        <Slider {...settings} className="px-4">
+        <Slider {...settings} className="!px-4">
           {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="p-4">
+            <div key={testimonial.id} className="!p-5">
               <div className="rounded-lg p-6 flex flex-col items-center text-center border-1 border-primary bg-white rounded-[10px]">
-                <p className="text-primary mb-4 bg-[#E6F2F2] rounded-[10px] !p-5 text-left" style={{ boxShadow: "0px 1px 3px 0px #0000001A" }}>
+                <p className="text-primary mb-4 bg-[#E6F2F2] rounded-[10px] !p-5 text-left" style={{ boxShadow: "0px 5px 5px 0px #0000001A" }}>
 
                   "{testimonial.description}"
                 </p>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 !p-4">
                   <div>
                     <img
                       src={testimonial.image}
                       alt={testimonial.name}
-                      className="w-16 h-16 rounded-full mb-3"
+                      className="w-[53px] h-[53px] rounded-full mb-3"
                     />
                   </div>
                   <div>

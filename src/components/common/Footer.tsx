@@ -1,17 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from "../../../public/assets/logo.svg"
-import Instagram from "../../../public/assets/instagram.svg"
-import Facebook from "../../../public/assets/facebook.svg"
-import Twitter from "../../../public/assets/twitter.svg"
-import Discord from "../../../public/assets/discord.svg"
+import Logo from "/assets/logo.svg"
+import Instagram from "/assets/instagram.svg"
+import Facebook from "/assets/facebook.svg"
+import Twitter from "/assets/twitter.svg"
+import Discord from "/assets/discord.svg"
 const footerData = {
   logoImage: Logo,
   description: "Join us on a journey towards a healthier, balanced life – where each inhale and exhale contributes to your overall sense of wellness.",
   menuItems: [
-    { name: "Phone", path: "/phone" },
-    { name: "Email", path: "/" },
-    { name: "Location", path: "/" }
+    { name: "Phone", path: "tel:+1234567890" },
+    { name: "Email", path: "mailto:example@gmail.com" },
+    { name: "Location", path: "/  " }
   ],
   socilIcons: [
     { icon: Instagram, path: "https://instagram.com" },
@@ -34,7 +34,7 @@ function Footer() {
             <h2 className='text-[24px]'>Contact</h2>
             <ul>
               {footerData.menuItems.map((item, i) => (
-                <li key={i}><Link to={item.path}>{item.name}</Link></li>
+                <li key={i}><Link to={item.path} className='hover:text-primary'>{item.name}</Link></li>
               ))}
             </ul>
           </div>
@@ -42,7 +42,7 @@ function Footer() {
             <h2  className='text-[24px]'>Stay on touch</h2>
             <ul className='flex gap-5'>
               {footerData.socilIcons.map((item, i) => (
-                <li key={i}><a href={item.path} target='_blank' rel='noopener noreferrer'><img src={item.icon} alt="Social Icon" /></a></li>
+                <li key={i}><a href={item.path} target='_blank' rel='noopener noreferrer' className='hover:text-primary'><img src={item.icon} alt="Social Icon" /></a></li>
               ))}
             </ul>
           </div>

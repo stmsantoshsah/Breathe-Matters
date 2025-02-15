@@ -1,8 +1,8 @@
 import React from 'react'
 
-import image1 from "../../../public/assets/real.png"
-import image2 from "../../../public/assets/monitor.png"
-import image3 from "../../../public/assets/real.png"
+import image1 from "/assets/real.png"
+import image2 from "/assets/monitor.png"
+import image3 from "/assets/real.png"
 
 const cardData = [
     {
@@ -23,7 +23,7 @@ const cardData = [
 ]
 const Cards = () => {
     return (
-        <div className='card_wrapper flex gap-[50px] md:flex-nowrap flex-wrap '>
+        <div className='card_wrapper flex lg:gap-[50px] md:gap-[30px] md:flex-nowrap flex-wrap '>
             {cardData.map((item, i) => (
                 <div className='md:max-w-[33.33%] sm:md:max-w-[50%] md:max-w-[100%] w-full h-full bg-[#E6F2F2]' key={i} style={{ boxShadow: "0px 2px 3px 0px #0000001A" }} >
                     <div className='h-[220px]'>

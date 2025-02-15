@@ -1,8 +1,8 @@
 import React from 'react'
-import WomenYoga from '../../../public/assets/womanyoga.png'
-import Headache from '../../../public/assets/headache.png'
-import LowBattery from '../../../public/assets/low-battery.png'
-import MusclePain from '../../../public/assets/muscle-pain.png'
+import WomenYoga from '/assets/womanyoga.png'
+import Headache from '/assets/headache.png'
+import LowBattery from '/assets/low-battery.png'
+import MusclePain from '/assets/muscle-pain.png'
 
 const discoverData = {
     title: "Discover the Hidden Power of Your Breath",

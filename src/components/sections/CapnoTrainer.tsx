@@ -1,5 +1,5 @@
 import React from 'react'
-import RightIcon from "../../../public/assets/vector.svg"
+import RightIcon from "/assets/vector.svg"
 const CapnoTrainerData = {
     title: (<>
         <span className='!font-[40px]'>What Is the</span> <br />CapnoTrainer® GO?

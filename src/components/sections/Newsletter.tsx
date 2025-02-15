@@ -15,7 +15,7 @@ const Newsletter: React.FC = () => {
                     <h3 className='text-white font-spectral text-[24px] font-bold'>{newsletterData.title}</h3>
                     <h2 className='text-white '>{newsletterData.subTitle}</h2>
                     <p className='text-white text-[16px] max-w-[520px] !mx-auto !my-5 text-center'>{newsletterData.description}</p>
-                    <button className='bg-white text-primary !p-5 rounded-[8px] !mt-8'>{newsletterData.buttonText}</button>
+                    <button className='bg-white text-primary !p-5 rounded-[8px] !mt-8 cursor-pointer hover:bg-primary hover:text-white'>{newsletterData.buttonText}</button>
                 </div>
             </div>
         </section>

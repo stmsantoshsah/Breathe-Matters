@@ -2,7 +2,7 @@ import React from 'react'
 import Image1 from "../../../public/assets/eliminate.png"
 import Image2 from "../../../public/assets/enhance.png"
 import Image3 from "../../../public/assets/achieve.png"
-import Image4 from "../../../public/assets/Improve.png"
+import Image4 from "../../../public/assets/improve.png"
 const forYouData = [
     {
         image: Image1,

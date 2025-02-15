@@ -1,7 +1,7 @@
 import React from "react";
-import Portable from "../../../public/assets/Portable.svg";
+import Portable from "../../../public/assets/portable.svg";
 import BreathStrategies from "../../../public/assets/breath.svg";
-import Breathwave from "../../../public/assets/Breathwave.svg";
+import Breathwave from "../../../public/assets/breathwave.svg";
 import Monitoring from "../../../public/assets/monitoring.svg";
 const features = [
   {

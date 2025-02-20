@@ -1,9 +1,9 @@
 import React from "react";
-import Image1 from "/assets/wellnessEnthusiasts.png";
-import Image2 from "/assets/healthPractitioners.png";
-import Image3 from "/assets/athletePerformers.png";
-import Image4 from "/assets/healthcareProfessionals.png";
-import Image5 from "/assets/educators.png";
+import Image1 from "../../assets/wellnessenthusiasts.png";
+import Image2 from "../../assets/healthpractitioners.png";
+import Image3 from "../../assets/athleteperformers.png";
+import Image4 from "../../assets/healthcareprofessionals.png";
+import Image5 from "../../assets/educators.png";
 const cardsData = [
   {
     id: 1,

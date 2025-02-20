@@ -1,8 +1,8 @@
 import React from 'react'
 
-import image1 from "/assets/real.png"
-import image2 from "/assets/monitor.png"
-import image3 from "/assets/real.png"
+import image1 from "../../assets/real.png"
+import image2 from "../../assets/monitor.png"
+import image3 from "../../assets/real.png"
 
 const cardData = [
     {

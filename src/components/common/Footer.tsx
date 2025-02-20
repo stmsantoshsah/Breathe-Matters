@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from "/assets/logo.svg"
-import Instagram from "/assets/instagram.svg"
-import Facebook from "/assets/facebook.svg"
-import Twitter from "/assets/twitter.svg"
-import Discord from "/assets/discord.svg"
+import Logo from "../../assets/logo.svg"
+import Instagram from "../../assets/instagram.svg"
+import Facebook from "../../assets/facebook.svg"
+import Twitter from "../../assets/twitter.svg"
+import Discord from "../../assets/discord.svg"
 const footerData = {
   logoImage: Logo,
   description: "Join us on a journey towards a healthier, balanced life – where each inhale and exhale contributes to your overall sense of wellness.",

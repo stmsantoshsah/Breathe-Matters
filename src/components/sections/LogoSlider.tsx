@@ -2,10 +2,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import Slider from "react-slick";
-import image1 from "/assets/airway1.png"; 
-import image2 from "/assets/drCruz.png";
-import image3 from "/assets/knosis.png";
-import image4 from "/assets/conspirelogo.png";
+import image1 from "../../assets/airway.png"; 
+import image2 from "../../assets/drCruz.png";
+import image3 from "../../assets/knowsis.png";
+import image4 from "../../assets/conspirelogo.png";
 
 const sliderImages = [image1, image2, image3, image4];
 

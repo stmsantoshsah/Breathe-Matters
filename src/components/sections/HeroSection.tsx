@@ -16,7 +16,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, subtitle, description,
             <p className='text-white sm:max-w-[60%] !mt-4'>{description}</p>
           </div>
           <div className='absolute right-0 bottom-0 hidden sm:block'>
-            <img src={imageSrc} alt="banneriMG" className='xl:max-w-[600px] lg:max-w-[400px] md:max-w-[300px] max-w-[200px] ' />
+            <img src={imageSrc} alt="banneriMG" className='xl:max-w-[540px] lg:max-w-[400px] md:max-w-[300px] max-w-[200px] ' />
           </div>
         </div>
       </div>

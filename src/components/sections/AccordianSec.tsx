@@ -25,7 +25,7 @@ const faqContent = [
 const AccordionSec = () => {
   return (
     <section className='faq_section'>
-      <div className='container !my-[100px]' style={{ maxWidth: "1024px" }}>
+      <div className='container sm:!my-[100px] !my-[50px]' style={{ maxWidth: "1024px" }}>
         <h2 className='text-center !mb-5 font-bold'>FAQs</h2>
         {faqContent.map((item, i) => (
           <Accordion key={i} className='!shadow-none !bg-transparent border-1 !rounded-[8px] !mb-4 border-primary text-primary'>

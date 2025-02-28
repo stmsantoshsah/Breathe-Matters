@@ -136,14 +136,16 @@ body {
     height: 100px;
   }
 }
-
+@media(max-width:991px){
+  .capnotrainer_section{
+    background: none;
+  }
+}
 @media(max-width:575px) {
   .hero_section::after {
     height:50px;
   }
-  .capnotrainer_section{
-    background: none;
-  }
+  
   .for_cards .for_card,.for_cards .for_card:nth-child(4),
   .for_cards .for_card:nth-child(5) {
     max-width: 100%;

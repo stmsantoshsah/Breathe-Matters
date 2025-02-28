@@ -24,9 +24,9 @@ const CapnoTrainer: React.FC = () => {
     return (
         <section className='capnotrainer_section'>
             <div className="container">
-                <div className='flex justify-between md:flex-nowrap flex-wrap'>
-                    <div className='md:max-w-[50%]'>
-                        <h2 className='text-primary font-bold sm:!font-[50px] md:!font-[40px] !font-[30px]'>{CapnoTrainerData.title}</h2>
+                <div className='flex justify-between md:flex-nowrap flex-wrap gap-5'>
+                    <div className='xl:max-w-[540px] lg:max-w-[400px] md:max-w-[350px]'>
+                        <h2 className='text-primary font-bold sm:!font-[50px] md:!font-[40px] !font-[30px] glining'>{CapnoTrainerData.title}</h2>
                         <p className=''>{CapnoTrainerData.description}</p>
                     </div>
                     <div className='md:!mt-0 !mt-6' >

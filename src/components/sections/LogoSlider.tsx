@@ -35,7 +35,7 @@ const LogoSlider: React.FC = () => {
   };
 
   return (
-    <section className="logoslider_section !pt-[26px] !pb-[90px]">
+    <section className="logoslider_section !pt-[26px] sm:!pb-[90px] !pb-[30px]">
       <div className="container mx-auto">
         <Slider {...settings}>
           {sliderImages.map((image, i) => (

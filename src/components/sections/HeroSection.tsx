@@ -7,7 +7,7 @@ interface HeroSectionProps {
 }
 const HeroSection: React.FC<HeroSectionProps> = ({ title, subtitle, description, imageSrc }) => {
   return (
-    <section className='hero_section !pt-[100px] relative'>
+    <section className='hero_section !pt-[100px] relative sm:!pb-[0px] !pb-[50px]'>
       <div className="container">
         <div className='flex'>
           <div>

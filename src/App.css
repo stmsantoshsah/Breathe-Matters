@@ -110,7 +110,30 @@ body {
   height: 56px;
   z-index: -1;
 }
-
+.glining::after{
+  background: url("./assets/gline.svg") no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: '';
+  max-width: 230px;
+  width: 100%;
+  height: 80px;
+  z-index: -1;
+}
+.capnotrainer_right::after{
+  background: url("./assets/glinetwo.svg") no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  content: '';
+  max-width: 230px;
+  width: 100%;
+  height: 80px;
+  z-index: -1;
+}
 .newsletter_content::after {
   background: url("./assets/ctwobox.svg") no-repeat center center;
   background-size: contain;
@@ -140,6 +163,18 @@ body {
   .capnotrainer_section{
     background: none;
   }
+  .capnotrainer_right::after{
+    bottom: -40px;
+    max-width: 130px;
+    height: 60px;
+  }
+  .glining::after{
+    max-width: 130px;
+  }
+  .newsletter_content::after {
+    max-width: 230px;
+    height: 100px;
+}
 }
 @media(max-width:575px) {
   .hero_section::after {
